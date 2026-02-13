@@ -1,0 +1,17 @@
+import math
+
+n= int(input("Enter number :"))
+
+digits = len(str(abs(n)))
+
+if digits == 1 :
+    print("Square is",n**2)
+    
+elif digits == 2 :
+    print("Square root is :",math.sqrt(n))
+    
+elif digits == 3:
+    print("Cube root is :",math.cbrt(n))
+    
+else :
+    print("Invalid number")
