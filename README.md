@@ -1,2 +1,0 @@
-# scaling-dollop
-Assignment
