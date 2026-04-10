@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+GRADE = ["1st","2nd","3rd","4th","5th"]
+NOS = [4,9, 56, 42, 39]
+
+plt.figure(figsize=(17, 6))
+plt.bar(GRADE,NOS, color='black')
+
+plt.xlabel('Grade')
+plt.ylabel('No of student')
+plt.title('GRADING REPORT')
+
+plt.show()
