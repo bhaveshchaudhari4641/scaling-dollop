@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+GRADE = ["1st","2nd","3rd","4th","5th"]
+NOS = [4,9, 56, 42, 39]
+Explode =[0.3,0.05,0.1,0.05,0.05]
+
+plt.pie(NOS,labels = GRADE, explode =Explode,shadow=True)
+plt.title('GRADING REPORT')
+plt.show()
